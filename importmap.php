@@ -16,6 +16,10 @@ return [
         'path' => './assets/app.js',
         'entrypoint' => true,
     ],
+    'viewer' => [
+        'path' => './assets/viewer.js',
+        'entrypoint' => true,
+    ],
     '@hotwired/stimulus' => [
         'version' => '3.2.2',
     ],
@@ -24,5 +28,11 @@ return [
     ],
     '@hotwired/turbo' => [
         'version' => '7.3.0',
+    ],
+    'three' => [
+        'version' => '0.164.1',
+    ],
+    'three/examples/jsm/loaders/GLTFLoader.js' => [
+        'url' => 'https://unpkg.com/three@0.164.1/examples/jsm/loaders/GLTFLoader.js',
     ],
 ];
