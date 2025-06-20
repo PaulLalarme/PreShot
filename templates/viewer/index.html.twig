@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}3D Viewer{% endblock %}
+
+{% block body %}
+<h1>3D Model Viewer</h1>
+<div id="app" style="width:100%;height:500px;"></div>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {{ importmap('viewer') }}
+{% endblock %}
